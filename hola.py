@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import render_template
 
-app = Flask(__name__)
+app = Flask(_name_, template_folder='templates')
 
 @app.route("/")
 def url_principal():
